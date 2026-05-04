@@ -1,5 +1,5 @@
 // ============================================
-// Cognitex - Configuration File
+// A2 Intelligence - Configuration File
 // ============================================
 // Update these values to change site-wide info
 // Changes here will reflect across the entire website
@@ -7,9 +7,9 @@
 const config = {
   // Company Information
   company: {
-    name: "Cognitex",
+    name: "A2 Intelligence",
     tagline: "AI Solutions & ML Services",
-    shortName: "CX",
+    shortName: "A2",
     description: "We architect intelligent AI systems using LangChain, LangGraph, and cutting-edge ML frameworks.",
   },
 
@@ -24,7 +24,7 @@ const config = {
   // Social Links
   social: {
     github: "https://github.com/Muhammad-Abdullah-Jami",
-    linkedin: "https://linkedin.com/in/Muhammad-Abdullah",
+    linkedin: "https://www.linkedin.com/in/syed-muhammad-abdullah-/",
     upwork: "https://www.upwork.com/freelancers/~010065e1049a1863d9",
   },
 
