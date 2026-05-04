@@ -1,38 +1,36 @@
+import config from '../config';
 import './About.css';
 
 const About = () => {
   const highlights = [
-    { number: '1+', label: 'Years Experience' },
-    { number: '10+', label: 'Projects Completed' },
-    { number: 'BS AI', label: 'FAST NUCES' },
+    { number: config.stats.yearsExperience, label: 'Years Experience' },
+    { number: config.stats.projectsDelivered, label: 'Projects Delivered' },
+    { number: config.stats.happyClients, label: 'Happy Clients' },
   ];
 
   return (
     <section className="about" id="about">
       <div className="container">
         <div className="section-header">
-          <h2>About Me</h2>
-          <p>Get to know me better</p>
+          <h2>About {config.company.name}</h2>
+          <p>Your partner in AI innovation</p>
         </div>
 
         <div className="about-content">
           <div className="about-text">
-            <h3>AI Developer & Machine Learning Engineer</h3>
+            <h3>{config.company.tagline}</h3>
             <p>
-              I'm Muhammad Abdullah, an AI Developer based in Islamabad, Pakistan. I recently graduated
-              with a BS in Artificial Intelligence from FAST NUCES, and I'm passionate about building
-              intelligent systems that solve real-world problems.
+              {config.company.name} is an AI development agency based in {config.contact.location}. We specialize in
+              building intelligent systems that solve real-world business problems and drive measurable results.
             </p>
             <p>
-              Currently working at <strong>Zigron | DentaSmart</strong>, I architect multi-agent
-              conversational systems, develop high-performance RAG pipelines, and engineer real-time
-              voice AI infrastructure. I specialize in LangChain, LangGraph, and cutting-edge ML frameworks
-              to create scalable AI solutions.
+              We architect multi-agent conversational systems, develop high-performance RAG pipelines,
+              and engineer real-time voice AI infrastructure. Our expertise in LangChain, LangGraph,
+              and cutting-edge ML frameworks enables us to create scalable AI solutions for businesses worldwide.
             </p>
             <p>
-              My expertise spans from deep learning and computer vision to natural language processing
-              and voice AI. I enjoy tackling complex challenges and turning innovative ideas into
-              production-ready applications.
+              From deep learning and computer vision to natural language processing and voice AI,
+              we tackle complex challenges and transform innovative ideas into production-ready applications.
             </p>
 
             <div className="about-highlights">
@@ -44,7 +42,7 @@ const About = () => {
               ))}
             </div>
 
-            <a href="/Muhammad_Abdullah_Resume.pdf" className="btn btn-primary" download>
+            <a href={config.resumePath} className="btn btn-primary" download>
               Download Resume
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
@@ -61,13 +59,13 @@ const About = () => {
               </div>
               <div className="card-content">
                 <code>
-                  <span className="keyword">const</span> <span className="variable">developer</span> = {'{'}
+                  <span className="keyword">const</span> <span className="variable">a2Intelligence</span> = {'{'}
                   <br />
-                  &nbsp;&nbsp;<span className="property">name</span>: <span className="string">"Muhammad Abdullah"</span>,
+                  &nbsp;&nbsp;<span className="property">agency</span>: <span className="string">"{config.company.name}"</span>,
                   <br />
-                  &nbsp;&nbsp;<span className="property">role</span>: <span className="string">"AI Developer"</span>,
+                  &nbsp;&nbsp;<span className="property">focus</span>: <span className="string">"AI Solutions"</span>,
                   <br />
-                  &nbsp;&nbsp;<span className="property">location</span>: <span className="string">"Islamabad, PK"</span>,
+                  &nbsp;&nbsp;<span className="property">location</span>: <span className="string">"{config.contact.location}"</span>,
                   <br />
                   &nbsp;&nbsp;<span className="property">expertise</span>: [
                   <br />
@@ -81,7 +79,7 @@ const About = () => {
                   <br />
                   &nbsp;&nbsp;],
                   <br />
-                  &nbsp;&nbsp;<span className="property">available</span>: <span className="boolean">true</span>
+                  &nbsp;&nbsp;<span className="property">accepting_clients</span>: <span className="boolean">true</span>
                   <br />
                   {'}'};
                 </code>
