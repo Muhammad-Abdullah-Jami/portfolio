@@ -1,5 +1,5 @@
 // ============================================
-// A2 Intelligence - Configuration File
+// Cognitex - Configuration File
 // ============================================
 // Update these values to change site-wide info
 // Changes here will reflect across the entire website
@@ -7,9 +7,9 @@
 const config = {
   // Company Information
   company: {
-    name: "A2 Intelligence",
+    name: "Cognitex",
     tagline: "AI Solutions & ML Services",
-    shortName: "A2",
+    shortName: "CX",
     description: "We architect intelligent AI systems using LangChain, LangGraph, and cutting-edge ML frameworks.",
   },
 
