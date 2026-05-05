@@ -1,16 +1,16 @@
 // ============================================
-// A2 Intelligence - Configuration File
+// Muhammad Abdullah - Portfolio Configuration
 // ============================================
 // Update these values to change site-wide info
 // Changes here will reflect across the entire website
 
 const config = {
-  // Company Information
+  // Personal Brand
   company: {
-    name: "A2 Intelligence",
-    tagline: "AI Solutions & ML Services",
-    shortName: "A2",
-    description: "We architect intelligent AI systems using LangChain, LangGraph, and cutting-edge ML frameworks.",
+    name: "Muhammad Abdullah",
+    tagline: "AI Engineer & ML Consultant",
+    shortName: "MA",
+    description: "I build intelligent AI systems using LangChain, LangGraph, and cutting-edge ML frameworks.",
   },
 
   // Personal/Contact Information

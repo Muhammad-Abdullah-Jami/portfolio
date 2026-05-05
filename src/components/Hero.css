@@ -78,9 +78,11 @@
   position: relative;
 }
 
-.hero-logo-icon {
+.avatar-photo {
   width: 320px;
   height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
   position: relative;
   z-index: 2;
 }
@@ -158,10 +160,9 @@
     justify-content: center;
   }
 
-  .avatar-placeholder {
+  .avatar-photo {
     width: 200px;
     height: 200px;
-    font-size: 3rem;
   }
 
   .avatar-decoration {

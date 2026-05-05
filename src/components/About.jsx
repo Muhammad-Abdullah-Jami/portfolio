@@ -12,25 +12,25 @@ const About = () => {
     <section className="about" id="about">
       <div className="container">
         <div className="section-header">
-          <h2>About {config.company.name}</h2>
-          <p>Your partner in AI innovation</p>
+          <h2>About Me</h2>
+          <p>Independent AI engineer & ML consultant</p>
         </div>
 
         <div className="about-content">
           <div className="about-text">
             <h3>{config.company.tagline}</h3>
             <p>
-              {config.company.name} is an AI development agency based in {config.contact.location}. We specialize in
-              building intelligent systems that solve real-world business problems and drive measurable results.
+              I'm {config.company.name}, an AI engineer based in {config.contact.location}. I build
+              intelligent systems that solve real-world business problems and drive measurable results.
             </p>
             <p>
-              We architect multi-agent conversational systems, develop high-performance RAG pipelines,
-              and engineer real-time voice AI infrastructure. Our expertise in LangChain, LangGraph,
-              and cutting-edge ML frameworks enables us to create scalable AI solutions for businesses worldwide.
+              I architect multi-agent conversational systems, develop high-performance RAG pipelines,
+              and engineer real-time voice AI infrastructure. My work with LangChain, LangGraph,
+              and modern ML frameworks helps teams ship scalable AI features quickly.
             </p>
             <p>
               From deep learning and computer vision to natural language processing and voice AI,
-              we tackle complex challenges and transform innovative ideas into production-ready applications.
+              I take on complex challenges and turn ideas into production-ready applications.
             </p>
 
             <div className="about-highlights">
@@ -59,11 +59,11 @@ const About = () => {
               </div>
               <div className="card-content">
                 <code>
-                  <span className="keyword">const</span> <span className="variable">a2Intelligence</span> = {'{'}
+                  <span className="keyword">const</span> <span className="variable">muhammadAbdullah</span> = {'{'}
                   <br />
-                  &nbsp;&nbsp;<span className="property">agency</span>: <span className="string">"{config.company.name}"</span>,
+                  &nbsp;&nbsp;<span className="property">name</span>: <span className="string">"{config.company.name}"</span>,
                   <br />
-                  &nbsp;&nbsp;<span className="property">focus</span>: <span className="string">"AI Solutions"</span>,
+                  &nbsp;&nbsp;<span className="property">role</span>: <span className="string">"AI Engineer & ML Consultant"</span>,
                   <br />
                   &nbsp;&nbsp;<span className="property">location</span>: <span className="string">"{config.contact.location}"</span>,
                   <br />
@@ -79,7 +79,7 @@ const About = () => {
                   <br />
                   &nbsp;&nbsp;],
                   <br />
-                  &nbsp;&nbsp;<span className="property">accepting_clients</span>: <span className="boolean">true</span>
+                  &nbsp;&nbsp;<span className="property">available_for_hire</span>: <span className="boolean">true</span>
                   <br />
                   {'}'};
                 </code>

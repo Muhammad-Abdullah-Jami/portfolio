@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero" id="hero">
       <div className="container hero-container">
         <div className="hero-content">
-          <p className="hero-greeting">Welcome to</p>
+          <p className="hero-greeting">Hi, I'm</p>
           <h1 className="hero-title">{config.company.name}</h1>
           <h2 className="hero-subtitle">
             {config.company.tagline.split('&')[0]}<span className="highlight">&</span>{config.company.tagline.split('&')[1]}
@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
-              View Our Work
+              View My Work
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
         <div className="hero-visual">
           <div className="hero-avatar">
-            <img src="/hero-icon.svg" alt={config.company.name} className="hero-logo-icon" />
+            <img src="/profile.jpg" alt={config.company.name} className="avatar-photo" />
             <div className="avatar-decoration"></div>
           </div>
         </div>
