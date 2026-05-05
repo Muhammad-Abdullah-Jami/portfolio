@@ -46,9 +46,7 @@ const Hero = () => {
         </div>
         <div className="hero-visual">
           <div className="hero-avatar">
-            <div className="avatar-placeholder">
-              <span>{config.company.shortName}</span>
-            </div>
+            <img src="/hero-icon.svg" alt={config.company.name} className="hero-logo-icon" />
             <div className="avatar-decoration"></div>
           </div>
         </div>

@@ -16,15 +16,13 @@
 }
 
 .footer-logo {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--white);
   display: inline-block;
   margin-bottom: 12px;
 }
 
-.footer-logo .highlight {
-  color: var(--accent);
+.footer-logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .footer-text {

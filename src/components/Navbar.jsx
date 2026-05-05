@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import config from '../config';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,7 +16,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container navbar-container">
         <a href="#" className="logo">
-          {config.company.shortName}<span className="highlight">.</span>
+          <img src="/logo.svg" alt="A2 Intelligence" className="logo-img" />
         </a>
 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>

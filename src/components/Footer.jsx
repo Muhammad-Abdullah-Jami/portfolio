@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-content">
           <a href="#" className="footer-logo">
-            {config.company.shortName}<span className="highlight">.</span>
+            <img src="/logo-white.svg" alt={config.company.name} className="footer-logo-img" />
           </a>
           <p className="footer-text">
             Building intelligent AI solutions that drive business growth.

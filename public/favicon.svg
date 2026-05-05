@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#2563eb"/>
-  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="white">A2</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="A2 Intelligence">
+  <!-- A² mark inside a thin-ruled circle — printer's-seal aesthetic -->
+  <circle cx="16" cy="16" r="14.5" fill="#0a0a0a"/>
+  <circle cx="16" cy="16" r="12.75" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.35"/>
+  <text x="6.5" y="22.5" font-family="'EB Garamond', 'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="20" font-weight="500" fill="#ffffff" letter-spacing="-0.5">A</text>
+  <text x="20" y="14" font-family="'EB Garamond', 'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="9" font-weight="500" fill="#ffffff">2</text>
 </svg>

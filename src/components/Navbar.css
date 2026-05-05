@@ -17,9 +17,13 @@
 }
 
 .logo {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 36px;
+  width: auto;
 }
 
 .nav-links {
