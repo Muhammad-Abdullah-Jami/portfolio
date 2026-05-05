@@ -17,9 +17,30 @@
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--primary);
+  cursor: pointer;
+}
+
+.logo-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.logo:hover .logo-pic {
+  transform: scale(1.05);
+}
+
+.logo-text {
+  line-height: 1;
 }
 
 .logo .highlight {

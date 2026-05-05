@@ -13,11 +13,20 @@ const Navbar = () => {
     { name: 'Contact', href: '#contact' },
   ];
 
+  const scrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="container navbar-container">
-        <a href="#" className="logo">
-          {config.company.shortName}<span className="highlight">.</span>
+        <a href="#" className="logo" onClick={scrollToTop} aria-label="Back to top">
+          <img src="/profile.jpg" alt="" className="logo-pic" />
+          <span className="logo-text">
+            {config.company.shortName}<span className="highlight">.</span>
+          </span>
         </a>
 
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
